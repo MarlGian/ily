@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&family=Poor+Story&family=Teko:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poor Story', cursive;
+}
+
+
+
+.pic1 {
+    border-radius: 50%;
+    height: 40vh;
+    width: 20vw;
+    opacity: 90%;
+    margin-left: 1%;
+}
+
+.pic2 {
+    border-radius: 50%;
+    height: 40vh;
+    width: 20vw;
+    opacity: 90%;
+    margin-top: 8%;
+    margin-left: 79%;
+}
+
+p {
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+}
+
+@media only screen
+and (max-device-width : 640px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poor Story', cursive;
+    }
+    
+    
+    
+    .pic1 {
+        border-radius: 50%;
+        height: 30vh;
+        width: 40vw;
+        opacity: 90%;
+        margin-left: 1%;
+    }
+    
+    .pic2 {
+        border-radius: 50%;
+        height: 30vh;
+        width: 40vw;
+        opacity: 90%;
+        margin-top: 8%;
+        margin-left: 79%;
+    }
+    
+    p {
+        text-align: center;
+        position: relative;
+        font-size: 40px;
+    }
+}
+
+@media only screen
+and (min-device-width : 641px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poor Story', cursive;
+    }
+    
+    
+    
+    .pic1 {
+        border-radius: 50%;
+        height: 30vh;
+        width: 40vw;
+        opacity: 90%;
+        margin-left: 1%;
+    }
+    
+    .pic2 {
+        border-radius: 50%;
+        height: 30vh;
+        width: 40vw;
+        opacity: 90%;
+        margin-top: 8%;
+        margin-left: 79%;
+    }
+    
+    p {
+        text-align: center;
+        position: relative;
+        font-size: 40px;
+    }
+}
